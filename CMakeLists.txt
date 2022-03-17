@@ -12,3 +12,9 @@ add_executable(lstat1 src/filedir/lstat.c)
 add_executable(atexit1 src/process/atexit1.c)
 add_executable(setjmp1 src/process/setjmp1.c)
 add_executable(longjmp1 src/process/longjmp1.c)
+
+# 进程控制
+add_executable(fork1 src/processcontrol/fork1.c)
+add_executable(waitpid1 src/processcontrol/waitpid1.c)
+add_executable(echoall src/processcontrol/echoall.c)
+add_executable(execle1 src/processcontrol/execle1.c)
