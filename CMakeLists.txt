@@ -18,3 +18,8 @@ add_executable(fork1 src/processcontrol/fork1.c)
 add_executable(waitpid1 src/processcontrol/waitpid1.c)
 add_executable(echoall src/processcontrol/echoall.c)
 add_executable(execle1 src/processcontrol/execle1.c)
+
+# 信号
+add_executable(signal1 src/signal/signal1.c)
+add_executable(signal2 src/signal/signal2.c)
+add_executable(sigsetjmp1 src/signal/sigsetjmp1.c)

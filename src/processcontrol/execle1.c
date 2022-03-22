@@ -16,7 +16,7 @@ int main(void) {
     if ((pid = fork()) < 0) {
         printf("fork error");
     } else if (pid == 0) {
-        if (execle("/Users/youngtr/CLionProjects/apue/src/processcontrol/echoall", "echoall", "myarg1",
+        if (execle("/CLionProjects/apue/src/processcontrol/echoall", "echoall", "myarg1",
                    "MY ARG2", NULL, en_init) < 0) {
             printf("execle error");
         }
