@@ -23,3 +23,8 @@ add_executable(execle1 src/processcontrol/execle1.c)
 add_executable(signal1 src/signal/signal1.c)
 add_executable(signal2 src/signal/signal2.c)
 add_executable(sigsetjmp1 src/signal/sigsetjmp1.c)
+
+# 线程
+add_executable(pthread_create1 src/thread/thread_create1.c)
+add_executable(pthread_join1 src/thread/thread_join1.c)
+
