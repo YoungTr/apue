@@ -28,3 +28,9 @@ add_executable(sigsetjmp1 src/signal/sigsetjmp1.c)
 add_executable(pthread_create1 src/thread/thread_create1.c)
 add_executable(pthread_join1 src/thread/thread_join1.c)
 
+# ipc
+add_executable(ipc1 src/ipc/pipe1.c)
+add_executable(ipc2 src/ipc/pipe2.c)
+add_executable(fifowrite src/ipc/fifowrite2.c)
+add_executable(fiforead src/ipc/fiforead.c)
+
