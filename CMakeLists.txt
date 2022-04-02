@@ -34,4 +34,6 @@ add_executable(ipc2 src/ipc/pipe2.c)
 add_executable(fifowrite src/ipc/fifowrite2.c)
 add_executable(fiforead src/ipc/fiforead.c)
 add_executable(shm1 src/ipc/shm1.c)
+add_executable(shmread src/ipc/shmread.c)
+add_executable(shmwrite src/ipc/shmwrite.c)
 
